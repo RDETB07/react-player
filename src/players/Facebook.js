@@ -101,13 +101,9 @@ export default class Facebook extends Component {
 
   render () {
     const { attributes } = this.props.config
-    const style = {
-      width: '100%',
-      height: '100%'
-    }
+
     return (
       <div
-        style={style}
         id={this.playerID}
         className='fb-video'
         data-href={this.props.url}
